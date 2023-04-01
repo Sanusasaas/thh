@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    height: 100%;
+}
+body{
+    background-image: url("../fon.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.logo{
+    width: 79px;
+    height: 43px;
+    margin-left: 77px;
+    margin-right: 177px;
+}
+.header{
+    display: flex;
+    margin-top: 10px;
+    border-bottom: 1px solid #fff;
+}
+.main{
+    min-height: 100%;
+    height: auto !important;
+    margin: 0 auto;
+    overflow: hidden;
+}
+ul li{
+    font-size: 20px;
+    width: 145px;
+    height: 34px;
+    border-radius: 20px 20px 0px 0px;
+    margin-right: 90px;
+    padding: 0px 20px;
+    padding-top: 10px;
+    list-style: none;
+    background: #4E4396;
+    text-align: center;
+    transition: background-color 0.3s linear;
+}
+ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+ul li:hover{
+    cursor: pointer;
+    background-color: #311768;
+}
+ul{
+    display: flex;
+}
+.container{
+    width: 1600px;
+    margin: 0 auto;
+}
+.o{
+    background: #311768;
+}
+.footer{
+    border-top: 3px solid #001B79;
+    background-color: #03172B;
+    padding: 60px 0px;
+    margin-bottom: 0;
+}
+.footer .container{
+    justify-content: space-between;
+    display: flex;
+	align-items: center;
+}
+.footer span{
+    font-size: 20px;
+    color: #fff;
+}
+.h1{
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    padding-bottom: 100px;
+    margin-right: 80px;
+}
+.head{
+    background-image: url('../imgs/about.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 300px;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+p{
+    color: #fff;
+    font-size: 30px;
+    margin: 100px 20px;
+}
+.head p{
+    color: #fff;
+    font-size: 20px;
+    width: 600px;
+    margin: 20px auto;
+}
+.conta{
+    width: 1000px;
+    margin: 0 auto;
+}
+button{
+    color: #fff;
+    background-color: #4c0475;
+    padding: 15px 50px;
+    border: unset;
+    border-radius: 10px;
+    margin-left: 400px;
+    text-transform: uppercase;
+    transition: all 0.5s linear;
+    position: absolute;
+}
+button:hover{
+    background: #000;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+.img{
+    display: flex;
+}
+.containe{
+    width: 1600px;
+    margin: 50px auto;
+}
